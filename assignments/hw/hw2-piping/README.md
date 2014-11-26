@@ -38,16 +38,13 @@ You should run them as well to verify that you've submitted your code successful
 
 There are no changes to your project structure.
 
+You must have a directory called `tests`.  The directory will contain a file called `redirect.script` that contains all of the test cases you tried.  You will generate the file using the `script` command, and it must be succinct (i.e. it cannot have unnecessary commands in it).  You should use comments in your script to document what you are testing with each test case.  [This video tutorial](https://izbicki.me/blog/videoguide-for-github-vim-bash.html#script) explains how to use the `script` command.
+
 ### testing
 
 Again, the tests you choose will be the most important part of your grade.  
 
 You should carefully consider: which redirections can be legally combined together, and which cannot? does order matter?  Also make sure to test that you are parsing the command correctly.
-
-For your testing script, you should have it named as:
-```
-redirect.script
-```
 
 **IMPORTANT:** If you are unsure if your test cases are sufficient, ask one of the instructors to review them *before the deadline*.
 
